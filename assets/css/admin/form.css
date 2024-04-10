@@ -1,0 +1,22 @@
+.form-container {
+    max-width: 600px;
+}
+
+.form-container .link:hover {
+    text-decoration: underline;
+}
+
+.form-container .label-style {
+    margin-bottom: 10px;
+
+    font-size: 15px !important;
+    font-weight: 500;
+}
+
+.form-container .show-password {
+    cursor: pointer !important;
+}
+
+.ck .ck-editor__main {
+    height: 50px;
+}

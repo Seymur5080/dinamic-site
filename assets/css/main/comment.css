@@ -1,0 +1,43 @@
+.form-container-comment {
+    max-width: 650px;
+}
+
+.form-container-comment .comment-box {
+    padding: 15px;
+
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.form-container-comment .comment-box .comment-author {
+    margin-right: 10px;
+
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.form-container-comment .comment-box .comment-time {
+    font-size: 12px;
+}
+
+.form-container-comment .comment-box .comment-text {
+    margin: 0;
+
+    line-height: 16px;
+}
+
+.form-container-comment .comment-box .comment-link {
+    margin-right: 10px;
+
+    font-size: 13px;
+
+    transition: all 0.5s ease 0s;
+}
+
+.form-container-comment .comment-box .comment-link:last-child {
+    margin-right: 0;
+}
+
+.form-container-comment .comment-box .comment-link:hover {
+    text-decoration: underline !important;
+}

@@ -1,0 +1,36 @@
+.sidebar .search,
+.sidebar .categories {
+   padding: 15px;
+
+   border-radius: 5px;
+}
+
+.sidebar .search .title,
+.sidebar .categories .title {
+   font-size: 18px;
+}
+
+.sidebar .categories ul li {
+   margin: 5px 0;
+}
+
+
+.sidebar .categories ul li a {
+   padding: 0;
+
+   color: #000;
+   font-size: 16px;
+
+   transition: all 0.5s ease 0s;
+}
+
+.sidebar .categories ul li a:hover {
+   color: #129ffd;
+   padding-left: 10px;
+}
+
+.sidebar .categories ul li a:active > i {
+   color: red;
+
+   transition: all 0.5s ease 0s;
+}

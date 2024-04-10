@@ -1,0 +1,15 @@
+.single-blog .title {
+   font-size: 30px;
+}
+
+.single-blog .single-blog__image {
+   max-height: 300px !important;
+
+   object-fit: cover;
+}
+
+.single-blog .text {
+   line-height: 22px;
+
+   word-wrap: break-word;
+}

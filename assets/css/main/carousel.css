@@ -1,0 +1,9 @@
+.carousel, .carousel-inner, .carousel-item {
+   max-height: 400px;
+}
+
+.carousel, .carousel-inner, .carousel-item img {
+   object-fit: cover;
+
+   border-radius: 5px;
+}
